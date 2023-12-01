@@ -1,0 +1,17 @@
+image: mwienk/docker-git-ftp
+
+deploy_all:
+  stage: deploy
+  script:
+    - git config git-ftp.url "$RUTA_API"
+    - git config git-ftp.password "$PASSWORD"
+    - git config git-ftp.user   "$USER"
+    - git config --global user.email "admin@devzeros.com"
+    - git config --global user.name "Dev Zeros"
+   # - git add .  # Agregar todos los cambios al área de preparación
+   # - git commit -m "Commit changes"  # Confirmar los cambios pendientes
+    - if [ ! -f .git-ftp.log ]; then git ftp init; fi
+    - git ftp push
+
+  only:
+    - main

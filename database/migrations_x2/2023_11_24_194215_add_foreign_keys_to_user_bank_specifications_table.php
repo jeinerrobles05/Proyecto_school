@@ -1,0 +1,32 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddForeignKeysToUserBankSpecificationsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('user_bank_specifications', function (Blueprint $table) {
+            $table->foreign(['user_bank_id'])->references(['id'])->on('user_banks')->onDelete('CASCADE');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('user_bank_specifications', function (Blueprint $table) {
+            $table->dropForeign('user_bank_specifications_user_bank_id_foreign');
+        });
+    }
+}

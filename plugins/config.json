@@ -1,0 +1,307 @@
+{
+    "name" : "plugin_bundle",
+
+    "unique_identifier" : "rocket_lms_plugin_bundle",
+
+    "version" : "1.7",
+
+    "minimum_item_version" : "1.7",
+
+    "product_version" : "1.7",
+
+    "files"     :
+    [
+        {
+            "root_directory"    : "/affiliate/history.blade.php",
+            "update_directory"  : "resources/views/admin/referrals/history.blade.php"
+        },
+        {
+            "root_directory"    : "/affiliate/users.blade.php",
+            "update_directory"  : "resources/views/admin/referrals/users.blade.php"
+        },
+        {
+            "root_directory"    : "/affiliate/referral.blade.php",
+            "update_directory"  : "resources/views/admin/settings/financial/referral.blade.php"
+        },
+        {
+            "root_directory"    : "/assignments/lists.blade.php",
+            "update_directory"  : "resources/views/admin/webinars/assignments/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/bundles/lists.blade.php",
+            "update_directory"  : "resources/views/admin/bundles/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/bundles/create.blade.php",
+            "update_directory"  : "resources/views/admin/bundles/create.blade.php"
+        },
+        {
+            "root_directory"    : "/cashback/history.blade.php",
+            "update_directory"  : "resources/views/admin/cashback/history.blade.php"
+        },
+        {
+            "root_directory"    : "/cashback/transactions.blade.php",
+            "update_directory"  : "resources/views/admin/cashback/transactions.blade.php"
+        },
+        {
+            "root_directory"    : "/cashback/create/index.blade.php",
+            "update_directory"  : "resources/views/admin/cashback/rules/create/index.blade.php"
+        },
+        {
+            "root_directory"    : "/cashback/list/index.blade.php",
+            "update_directory"  : "resources/views/admin/cashback/rules/lists/index.blade.php"
+        },
+        {
+            "root_directory"    : "/course_forum/answers_lists.blade.php",
+            "update_directory"  : "resources/views/admin/webinars/forum/answers_lists.blade.php"
+        },
+        {
+            "root_directory"    : "/course_forum/course_lists.blade.php",
+            "update_directory"  : "resources/views/admin/webinars/forum/course_lists.blade.php"
+        },
+        {
+            "root_directory"    : "/course_forum/question_lists.blade.php",
+            "update_directory"  : "resources/views/admin/webinars/forum/question_lists.blade.php"
+        },
+        {
+            "root_directory"    : "/course_notices/lists.blade.php",
+            "update_directory"  : "resources/views/admin/noticeboards/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/noticeboard/send.blade.php",
+            "update_directory"  : "resources/views/admin/noticeboards/send.blade.php"
+        },
+        {
+            "root_directory"    : "/course_statistics/index.blade.php",
+            "update_directory"  : "resources/views/admin/webinars/course_statistics/index.blade.php"
+        },
+        {
+            "root_directory"    : "/others/features.blade.php",
+            "update_directory"  : "resources/views/admin/settings/general/features.blade.php"
+        },
+        {
+            "root_directory"    : "/forum/admin/create.blade.php",
+            "update_directory"  : "resources/views/admin/forums/create.blade.php"
+        },
+        {
+            "root_directory"    : "/forum/admin/lists.blade.php",
+            "update_directory"  : "resources/views/admin/forums/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/forum/featured/create.blade.php",
+            "update_directory"  : "resources/views/admin/forums/featured_topics/create.blade.php"
+        },
+        {
+            "root_directory"    : "/forum/featured/lists.blade.php",
+            "update_directory"  : "resources/views/admin/forums/featured_topics/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/forum/recommended/create.blade.php",
+            "update_directory"  : "resources/views/admin/forums/recommended_topics/create.blade.php"
+        },
+        {
+            "root_directory"    : "/forum/recommended/lists.blade.php",
+            "update_directory"  : "resources/views/admin/forums/recommended_topics/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/forum/topics/create.blade.php",
+            "update_directory"  : "resources/views/admin/forums/topics/create.blade.php"
+        },
+        {
+            "root_directory"    : "/forum/topics/lists.blade.php",
+            "update_directory"  : "resources/views/admin/forums/topics/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/gift/history.blade.php",
+            "update_directory"  : "resources/views/admin/gifts/history.blade.php"
+        },
+        {
+            "root_directory"    : "/gift/settings.blade.php",
+            "update_directory"  : "resources/views/admin/gifts/settings.blade.php"
+        },
+        {
+            "root_directory"    : "/inapp_live_class/index.blade.php",
+            "update_directory"  : "resources/views/admin/agora_history/index.blade.php"
+        },
+        {
+            "root_directory"    : "/installment/create/index.blade.php",
+            "update_directory"  : "resources/views/admin/financial/installments/create/index.blade.php"
+        },
+        {
+            "root_directory"    : "/installment/list/index.blade.php",
+            "update_directory"  : "resources/views/admin/financial/installments/lists/index.blade.php"
+        },
+        {
+            "root_directory"    : "/installment/purchases/index.blade.php",
+            "update_directory"  : "resources/views/admin/financial/installments/purchases/index.blade.php"
+        },
+        {
+            "root_directory"    : "/installment/settings/index.blade.php",
+            "update_directory"  : "resources/views/admin/financial/installments/settings/index.blade.php"
+        },
+        {
+            "root_directory"    : "/installment/pages/verified_users.blade.php",
+            "update_directory"  : "resources/views/admin/financial/installments/verified_users.blade.php"
+        },
+        {
+            "root_directory"    : "/installment/pages/verification_requests.blade.php",
+            "update_directory"  : "resources/views/admin/financial/installments/verification_requests.blade.php"
+        },
+        {
+            "root_directory"    : "/installment/pages/verification_request_details.blade.php",
+            "update_directory"  : "resources/views/admin/financial/installments/verification_request_details.blade.php"
+        },
+        {
+            "root_directory"    : "/installment/pages/overdue_installments.blade.php",
+            "update_directory"  : "resources/views/admin/financial/installments/overdue_installments.blade.php"
+        },
+        {
+            "root_directory"    : "/installment/pages/overdue_history.blade.php",
+            "update_directory"  : "resources/views/admin/financial/installments/overdue_history.blade.php"
+        },
+        {
+            "root_directory"    : "/manual_enrollment/history.blade.php",
+            "update_directory"  : "resources/views/admin/enrollment/history.blade.php"
+        },
+        {
+            "root_directory"    : "/manual_enrollment/add_student_to_a_class.blade.php",
+            "update_directory"  : "resources/views/admin/enrollment/add_student_to_a_class.blade.php"
+        },
+        {
+            "root_directory"    : "/meeting_booking/meetings/lists.blade.php",
+            "update_directory"  : "resources/views/admin/appointments/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/offline_payment/lists.blade.php",
+            "update_directory"  : "resources/views/admin/financial/offline_payments/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/organizations/organizations.blade.php",
+            "update_directory"  : "resources/views/admin/users/organizations.blade.php"
+        },
+        {
+            "root_directory"    : "/private_mode/not_access_to_content.blade.php",
+            "update_directory"  : "resources/views/admin/users/not_access_to_content.blade.php"
+        },
+        {
+            "root_directory"    : "/multi_currency/currency.blade.php",
+            "update_directory"  : "resources/views/admin/settings/financial/currency.blade.php"
+        },
+        {
+            "root_directory"    : "/multilanguage/basic.blade.php",
+            "update_directory"  : "resources/views/admin/settings/general/basic.blade.php"
+        },
+        {
+            "root_directory"    : "/question_bank/lists.blade.php",
+            "update_directory"  : "resources/views/admin/quizzes/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/question_bank/create_quiz_form.blade.php",
+            "update_directory"  : "resources/views/web/default/panel/quizzes/create_quiz_form.blade.php"
+        },
+        {
+            "root_directory"    : "/quiz_certification/course_certificates.blade.php",
+            "update_directory"  : "resources/views/admin/certificates/course_certificates.blade.php"
+        },
+        {
+            "root_directory"    : "/quiz_certification/lists.blade.php",
+            "update_directory"  : "resources/views/admin/certificates/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/quiz_certification/new_templates.blade.php",
+            "update_directory"  : "resources/views/admin/certificates/new_templates.blade.php"
+        },
+        {
+            "root_directory"    : "/quiz_certification/templates.blade.php",
+            "update_directory"  : "resources/views/admin/certificates/templates.blade.php"
+        },
+        {
+            "root_directory"    : "/registration_bonus/history.blade.php",
+            "update_directory"  : "resources/views/admin/registration_bonus/history.blade.php"
+        },
+        {
+            "root_directory"    : "/registration_bonus/index.blade.php",
+            "update_directory"  : "resources/views/admin/registration_bonus/settings/index.blade.php"
+        },
+        {
+            "root_directory"    : "/reward_points/create.blade.php",
+            "update_directory"  : "resources/views/admin/rewards/create.blade.php"
+        },
+        {
+            "root_directory"    : "/reward_points/history.blade.php",
+            "update_directory"  : "resources/views/admin/rewards/history.blade.php"
+        },
+        {
+            "root_directory"    : "/reward_points/settings.blade.php",
+            "update_directory"  : "resources/views/admin/rewards/settings.blade.php"
+        },
+        {
+            "root_directory"    : "/saas/lists.blade.php",
+            "update_directory"  : "resources/views/admin/financial/registration_packages/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/saas/new.blade.php",
+            "update_directory"  : "resources/views/admin/financial/registration_packages/new.blade.php"
+        },
+        {
+            "root_directory"    : "/saas/reports.blade.php",
+            "update_directory"  : "resources/views/admin/financial/registration_packages/reports.blade.php"
+        },
+        {
+            "root_directory"    : "/saas/index.blade.php",
+            "update_directory"  : "resources/views/admin/financial/registration_packages/settings/index.blade.php"
+        },
+        {
+            "root_directory"    : "/store/create.blade.php",
+            "update_directory"  : "resources/views/admin/store/products/create.blade.php"
+        },
+        {
+            "root_directory"    : "/store/lists.blade.php",
+            "update_directory"  : "resources/views/admin/store/products/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/store/settings.blade.php",
+            "update_directory"  : "resources/views/admin/store/settings.blade.php"
+        },
+        {
+            "root_directory"    : "/subscription/new.blade.php",
+            "update_directory"  : "resources/views/admin/financial/subscribes/new.blade.php"
+        },
+        {
+            "root_directory"    : "/subscription/lists.blade.php",
+            "update_directory"  : "resources/views/admin/financial/subscribes/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/text_courses/step_1.blade.php",
+            "update_directory"  : "resources/views/web/default/panel/webinar/create_includes/step_1.blade.php"
+        },
+        {
+            "root_directory"    : "/text_courses/create.blade.php",
+            "update_directory"  : "resources/views/admin/webinars/create.blade.php"
+        },
+        {
+            "root_directory"    : "/tutor_finder/create.blade.php",
+            "update_directory"  : "resources/views/admin/regions/create.blade.php"
+        },
+        {
+            "root_directory"    : "/tutor_finder/index.blade.php",
+            "update_directory"  : "resources/views/admin/regions/index.blade.php"
+        },
+        {
+            "root_directory"    : "/tutor_finder/front/index.blade.php",
+            "update_directory"  : "resources/views/web/default/instructorFinder/index.blade.php"
+        },
+        {
+            "root_directory"    : "/upcoming_courses/lists.blade.php",
+            "update_directory"  : "resources/views/admin/upcoming_courses/lists.blade.php"
+        },
+        {
+            "root_directory"    : "/upcoming_courses/index.blade.php",
+            "update_directory"  : "resources/views/admin/upcoming_courses/create/index.blade.php"
+        },
+        {
+            "root_directory"    : "/waitlist/index.blade.php",
+            "update_directory"  : "resources/views/admin/waitlists/index.blade.php"
+        }
+    ]
+}
