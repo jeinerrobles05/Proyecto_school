@@ -170,7 +170,9 @@ class TaskController extends Controller
 
         if (!empty($webinar) and $webinar->canAccess($user)) {
 
-            $groups = $webinar->groups->where('curso_id', $webinar_id );
+            $groups = course_group::where('curso_id', $webinar_id)
+						->where('instructor_id', $user->id)
+						->get();
 
             $data = [
                 'groups' => [],
